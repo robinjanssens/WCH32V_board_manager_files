@@ -237,7 +237,42 @@
               "size": "507269"
             }				
           ]
-        }		
+        },
+        {
+          "name": "wchisp",
+          "version": "nightly",
+          "systems":
+          [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/ch32-rs/wchisp/releases/download/nightly/wchisp-win-x64.tar.gz",
+              "archiveFileName": "wchisp-win-x64.tar.gz",
+              "checksum": "SHA-256:76870ec869b410827208a20e07e8c2fe307c549480eb6192da3a186d959a060f",
+              "size": "656535"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://github.com/ch32-rs/wchisp/releases/download/nightly/wchisp-linux-x64.tar.gz",
+              "archiveFileName": "wchisp-linux-x64.tar.gz",
+              "checksum": "SHA-256:b4a651bef61bc96fd49f5d49cc310d2bd5a4658c1a48dc47a78f6ad3f2f99398",
+              "size": "843574"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/ch32-rs/wchisp/releases/download/nightly/wchisp-macos-x64.tar.gz",
+              "archiveFileName": "wchisp-macos-x64.tar.gz",
+              "checksum": "SHA-256:655e053088258f9cb21ad20f11326908f6cd4d42a633950101fd7737f62a66e0",
+              "size": "765124"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://github.com/ch32-rs/wchisp/releases/download/nightly/wchisp-macos-arm64.tar.gz",
+              "archiveFileName": "wchisp-macos-arm64.tar.gz",
+              "checksum": "SHA-256:93e87cbbd693ad09a996ba883ba0058171b22dddbf3341af82ba366d965fe0c2",
+              "size": "765230"
+            }
+          ]
+        }
       ]
     }
   ]
