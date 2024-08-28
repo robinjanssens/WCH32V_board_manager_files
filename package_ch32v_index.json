@@ -258,6 +258,13 @@
               "size": "829359"
             },
             {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/ch32-rs/wchisp/releases/download/v0.2.3/wchisp-v0.2.3-linux-aarch64.tar.gz",
+              "archiveFileName": "wchisp-v0.2.3-linux-aarch64.tar.gz",
+              "checksum": "SHA-256:5f3f20a273d62b545085fccfa5640f4bf42ef70ccf17d6be87311951073450a1",
+              "size": "828826"
+            },
+            {
               "host": "x86_64-apple-darwin",
               "url": "https://github.com/ch32-rs/wchisp/releases/download/v0.2.3/wchisp-v0.2.3-macos-x64.tar.gz",
               "archiveFileName": "wchisp-v0.2.3-macos-x64.tar.gz",
