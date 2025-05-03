@@ -190,6 +190,45 @@
               "version": "0.2.3"
             }
           ]
+        },
+        {
+          "name": "CH32 MCU EVT Boards",
+          "architecture": "ch32v",
+          "version": "1.0.5-beta",
+          "category": "Contributed",
+          "url": "https://codeload.github.com/robinjanssens/arduino_core_ch32/zip/refs/tags/1.0.5b",
+          "archiveFileName": "arduino_core_ch32-1.0.5b.zip",
+          "checksum": "SHA-256:da5cf44678059ee230502dd0ac75a6c0f32bccc869d4e99aa56d3926709189d0",
+          "size": "1377073",
+          "boards": [
+            {"name": "CH32X035 EVT Board"},
+            {"name": "CH32V30x EVT Board"},
+            {"name": "CH32V20x EVT Board"},
+            {"name": "CH32V10x EVT Board"},
+            {"name": "CH32V00x EVT Board"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "WCH",
+              "name": "riscv-none-embed-gcc",
+              "version": "8.2.0"
+            },
+            {
+              "packager": "WCH",
+              "name": "openocd",
+              "version": "1.0.0"
+            },
+            {
+              "packager": "WCH",
+              "name": "beforeinstall",
+              "version": "1.0.0"
+            },
+            {
+              "packager": "WCH",
+              "name": "wchisp",
+              "version": "0.2.3"
+            }
+          ]
         }
       ],
       "tools": [
